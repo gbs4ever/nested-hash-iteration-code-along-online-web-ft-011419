@@ -23,4 +23,5 @@ require 'pry'
           value.delete_if  {|flavor|  flavor == "strawberry"}
         end
     end
+    contacts
   end
