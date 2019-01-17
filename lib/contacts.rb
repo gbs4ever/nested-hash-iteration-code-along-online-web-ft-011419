@@ -19,7 +19,7 @@ require 'pry'
     contacts["Freddy Mercury"].each do |charcter, value |
 
         if charcter == :favorite_ice_cream_flavors
-          binding.pry
+
           value.delete_if  {|flavor|  flavor == "strawberry"}
         end
     end
